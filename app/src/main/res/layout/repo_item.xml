@@ -1,0 +1,74 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <LinearLayout
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/repoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Repository Name"
+                android:textColor="@color/green"
+                android:textFontWeight="700"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/repoDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/dark_red"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/repoLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textColor="@color/dark_blue"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/repoCreationDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created At"
+                android:textColor="@color/dark_blue"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnUpdate"
+                android:layout_width="56dp"
+                android:layout_height="92dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_update" />
+
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="54dp"
+                android:layout_height="92dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_delete" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
