@@ -1,7 +1,5 @@
 # Minimal-Github-Repo-Manager
 
-# GitHub Client App
-
 This Android app allows you to manage GitHub repositories using the GitHub API.
 
 ## Overview
