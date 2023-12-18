@@ -9,7 +9,7 @@ This Android app allows you to manage GitHub repositories using the GitHub API.
 The GitHub Client App is designed to provide a mobile interface for users to interact with their GitHub repositories. It leverages the GitHub API to retrieve information about the authenticated user, list repositories, create new repositories, update existing repositories, and delete repositories.
 
 <P align="center">
-<img src="C:\Users\MVIDEO\Desktop\Desarrollo Aplicaciones Moviles\Aplicaciones Android\ProyectoGithubApi\BryanGaray99-Minimal-Github-Repo-Manager\app\src\main\assets\appExample.png" alt="Preview.png" style="height: 400px;" height="300px">
+<img src="\app\src\main\assets\appExample.png" alt="Preview.png" style="height: 400px;" height="300px">
 <P align="center">Main Screen of the App</P>
 
 ## Functionalities
